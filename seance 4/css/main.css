@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: unset;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px 5px;
+}
+h1::before{
+    content: 'Hi ';
+    border: 3px solid blue;
+}
+h1::after{
+    content: url(https://static.vecteezy.com/system/resources/thumbnails/005/487/432/small/clipart-icon-lupe-loop-search-free-vector.jpg);
+
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    display: block;
+}
+button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    margin-right: 15px;
+}

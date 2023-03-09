@@ -1,0 +1,22 @@
+@media screen and (max-width:800px) and (min-width:400px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        color:blue;
+    }
+}
+@media screen and (max-width:400px)  {
+    body{
+        background-color: yellow;
+    }
+    h1{
+        color:black;
+    }
+}
+@media print{
+    h1{
+        font-size: 8em;
+        text-decoration: underline;
+    }
+}
